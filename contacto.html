@@ -1,0 +1,138 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce - Contacto</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="nombre-sitio">Top <span>Muebles</span></h1>
+    </header>
+
+    <div class="contenedor-navegacion">
+      <nav class="nav-principal contenedor">
+        <a href="./index.html">Inicio</a>
+        <a href="./nosotros.html">Nosotros</a>
+        <a href="tienda.html">Tienda</a>
+        <a href="blog.html">Blog</a>
+        <a href="galeria.html">Galería</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+
+    <div class="cuerpo-contacto">
+    <main class="contenido-principal contenedor">
+      <h2 class="text-center">Contacta con nosotros</h2>
+
+      <form class="formulario">
+        <fieldset>
+          <legend>Tus datos</legend>
+
+          <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" class="input" type="text" placeholder="Tu nombre" />
+          </div>
+
+          <div class="campo">
+            <label for="nombre">Asunto:</label>
+            <input id="asunto" class="input" type="text" placeholder="Tu asunto" />
+          </div>
+          <div class="campo">
+            <label for="nombre">Teléfono:</label>
+            <input id="tel" type="tel" class="input" placeholder="Tu teléfono" />
+          </div>
+
+          <div class="campo">
+            <label for="email">Email:</label>
+            <input id="email" type="email" class="input" placeholder="Tu email" />
+          </div>
+
+          <div class="campo">
+            <label for="sms">Mensaje:</label>
+        <textarea  cols="20" rows="10" class="input"></textarea>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>País</legend>
+          <div class="campo">
+            <label for="pais">País</label>
+            <select id="pais" class="input">
+              <option disabled>-- Seleccionar --</option>
+              <option>España</option>
+              <option>Portugal</option>
+              <option>Andorra</option>
+              <option>Francia</option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Información addicional</legend>
+          <div class="campo">
+            <label for="cliente">Cliente</label>
+            <input id="cliente" type="radio" name="tipo" value="cliente">
+          </div>
+
+          <div class="campo">
+            <label for="Proveedor">Proveedor</label>
+            <input id="Proveedor" type="radio" name="tipo" value="proveedor">
+          </div>
+        </fieldset>
+
+        <input class="btn" type="submit" value="Enviar formulario">
+      </form>
+    </main>
+  </div>
+
+    <footer class="site-footer">
+      <div class="grid-footer contenedor">
+        <div class="footer-hijo">
+          <h3>Categorías</h3>
+          <nav class="footer-menu">
+            <a href="">Cocina</a>
+            <a href="">Oficina</a>
+            <a href="">Jardín</a>
+            <a href="">Garaje</a>
+            <a href="">Dormitorios</a>
+          </nav>
+        </div>
+
+        <div class="footer-hijo">
+          <h3>Sobre nosotros</h3>
+          <nav class="footer-menu">
+            <a href="">Nuestra historia</a>
+            <a href="">Misión, visión y valores</a>
+            <a href="">Trabaja con nosotros</a>
+            <a href="">Política de privacidad</a>
+            <a href="">Términos del servicio</a>
+          </nav>
+        </div>
+
+        <div class="footer-hijo">
+          <h3>Ayuda</h3>
+          <nav class="footer-menu">
+            <a href="">Preguntas frecuentes</a>
+            <a href="">Ayuda en línea</a>
+            <a href="">Confianza y seguridad</a>
+          </nav>
+        </div>
+      </div>
+      <p class="copyright">©Top Muebles. Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
